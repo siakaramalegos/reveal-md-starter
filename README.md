@@ -4,28 +4,38 @@ This starter uses [reveal-md](https://github.com/webpro/reveal-md) to bootstrap 
 
 ## Usage
 
+### Installation
+
 To use this starter, you must have both [reveal-md](https://github.com/webpro/reveal-md) and [gh-pages](https://github.com/tschaub/gh-pages) installed locally. These are not installed via the project because they are too large to install in every individual project.
 
 ```
 $ npm install reveal-md gh-pages -g
 ```
 
-To run the slides locally, watching for changes in style or content:
+### Scripts
+
+To **run** the slides locally, watching for changes in style or content:
 
 ```
 $ npm start
 ```
 
-To create a build in the `/build/` folder:
+To create a **build** in the `/build/` folder:
 
 ```
 $ npm run build
 ```
 
-To deploy the `/build/` folder to Github pages:
+To **deploy** the `/build/` folder to Github pages:
 
 ```
 $ npm run deploy
+```
+
+To **export to pdf** to `slides.pdf` in 1024x768 resolution, run ([more info](https://github.com/webpro/reveal-md#print-to-pdf)):
+
+```
+$ npm run print
 ```
 
 ## Slides and Controls
