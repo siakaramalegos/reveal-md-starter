@@ -2,6 +2,12 @@
 
 This starter uses [reveal-md](https://github.com/webpro/reveal-md) to bootstrap a slides repo with custom styling and fonts (to successfully present when offline), and the ability to deploy to Github pages.
 
+A few sample slides are included. The default slide separator is `---`. For vertical transition slides, use `-v-`.
+
+The custom slide theme css and the highlight theme are indicated in the top of the `index.md` file as YAML front matter.
+
+The custom stylesheet is `style.css` - I started with the White theme for reveal.js by [Hakim El Hattab](http://hakim.se), and edited for my own purposes from there. The footer Twitter handle is set there. Custom fonts are in the `/fonts/` folder, to be able to successfully run the slides when offline.
+
 ## Usage
 
 ### Installation
